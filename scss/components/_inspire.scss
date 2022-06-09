@@ -1,0 +1,65 @@
+/* ------------------------PAGINA INSPIRE----------------------- */
+/* CONTENEDOR PAGINA INSPIRE */
+.position-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    background-color: #000000;
+    height: auto;
+    /* border: 1px solid rebeccapurple; */
+    flex-wrap: wrap;
+    z-index: -1;
+  }
+  
+  .container-inspire {
+    max-width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 30px;
+    align-items: stretch;
+    justify-items: center;
+    margin: 30px 0px 105px 0px;
+  }
+  
+  .gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .imagen-2 {
+    grid-column-start: span 2;
+  }
+  
+  .imagen-5 {
+    grid-row-start: span 2;
+  }
+  
+  .imagen-6 {
+    grid-column-start: span 2;
+  }
+  
+  .imagen-7 {
+    grid-row-start: span 2;
+  }
+  
+  .imagen-8 {
+    grid-column-start: span 2;
+  }
+  
+  .imagen-12 {
+    grid-column-start: span 2;
+  }
+  
+  .imagen-15 {
+    grid-row-start: span 2;
+  }
+  
+  .imagen-16 {
+    grid-column-start: span 2;
+  }
+  
+  /* ---------------------------finalseccion inspire-------------------  */

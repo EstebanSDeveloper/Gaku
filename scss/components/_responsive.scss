@@ -1,0 +1,464 @@
+/* ------------------------------RESPONSIVE -------------------------- */
+@media only screen and (max-width: 450px) {
+
+    /* --------------------------------TEXTOS DE VIDEO INICIO------------------------  */
+  
+    .video-base{
+      max-width: 100vh;
+    }
+  
+  
+    .text-video {
+      position: absolute;
+      z-index:1;
+      height: 320px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 70px;
+      justify-content: space-around;
+      /* border: 1px solid red; */
+    }
+  
+    .text-video h1 {
+      color: #f5ffda;
+      font-family: "Nunito", sans-serif;
+      font-weight: 800;
+      font-size: 3rem;
+    }
+  
+    .text-video p {
+      color: #f5ffda;
+      font-family: "Nunito", sans-serif;
+      font-weight: lighter;
+      font-size: 1.7rem;
+      text-align: center;
+      visibility: hidden;
+    }
+  
+    .text-video h3 {
+      font-family: "Nunito", sans-serif;
+      font-weight: 600;
+      background-color: #e9e2c4;
+      font-size: 1.7rem;
+      border-radius: 25px;
+      width: 220px;
+      height: 40px;
+      padding: 10px;
+      opacity: 75%;
+      top: 25px;
+    }
+  
+    .text-video a {
+      text-decoration: none;
+      font-family: "Nunito", sans-serif;
+      font-weight: 600;
+      color: #000000;
+    }
+  
+    .text-video h3:hover {
+      background-color: #000000;
+      opacity: 60%;
+      color: #e9e2c4;
+      border: 2px solid #e9e2c4;
+      padding: 9px;
+    }
+  
+    /* --------------------------------FINAL TEXTOS VIDEO--------------------------- */
+  
+    /*--------------------------------CARRUSEL AJUSTE DE ESPACIOS-------------------------- */
+  
+    .carousel-item img {
+      object-fit: scale-down;
+      top: 0;
+      left: 0;
+      /* max-height: 0vh; */
+    }
+  
+    .background-carrusel p {
+      font-weight: 600;
+      font-size: 2rem;
+    }
+  
+    .carrusel-mobile{
+      position: relative;
+      top: -60px;
+  }
+  
+  .phrase-container2 {
+      height: 30vh;
+  }
+  
+    /*--------------------------------END CARRUSEL AJUSTE DE ESPACIOS-------------------------- */
+  
+  
+    .container-inspire {
+      display: grid;
+      grid-template-columns: 1fr;
+      /* grid-auto-rows: 220px; */
+    }
+  
+    .gallery-items {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+  
+    .container-map p {
+      left: 0px;
+      
+    }
+
+    .contact-container{
+      
+      margin-left: 1.5%;
+
+    }
+  
+    .contact-container li {
+      /* border: 2px solid red; */
+      max-width: 20px;
+      
+    }
+
+    .contact-container ul {
+
+        padding-left: 0rem;
+        margin-left: -15px;
+        justify-content: space-around;
+        position: relative;
+        left: -17px;
+
+    }
+  
+    .tamaño-iconos-redes {
+      object-fit: contain;
+      width: 30px;
+      margin: 0px 20px;
+      
+    }
+  
+    .section-container-collection h2 {
+      font-family: "Nunito", sans-serif;
+      font-weight: 900;
+      font-size: 3.5rem;
+      color: #f5ffda;
+      height: 180px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+      /* border: 1px solid rgb(212, 66, 40); */
+    }
+  
+    .position-footer {
+      position: relative;
+      bottom: 0;
+    }
+
+    .logo-footer {
+      position: relative;
+      left: -1px;
+      top: 4px;
+
+    }
+  
+    .background-carrusel {
+      position: relative;
+      top: 60px;
+    }
+  
+    .phrase-container {
+      height: 30vh;
+      position: relative;
+      top: 60px;
+    }
+  
+    .phrase-container h1 {
+      font-size: 2rem;
+    }
+  
+    .phrase-container h3 {
+      font-size: 2rem;
+    }
+  
+    /* work with us section */
+  
+    .title-size{
+  
+      font-size: 4rem;
+  
+    }
+  
+    .paragraph-size{
+  
+      font-size: 2rem;
+  
+    }
+  
+    .phrase-container2 h2 {
+  
+      font-size: 2.5rem;
+  
+    }
+  
+    .phrase-container2 h3 {
+  
+      font-size: 1.5rem;
+  
+    }
+  
+    /* --------------------SECTION DEALS TEXTS---------------- */
+  
+  .section-deals h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: uppercase;
+  
+  }
+  
+  .section-deals p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    flex-wrap: wrap;
+  
+  }
+    /* work with us section */
+
+    .title-size{
+
+        font-size: 4rem;
+    
+      }
+    
+      .paragraph-size{
+    
+        font-size: 2rem;
+    
+      }
+    
+      .phrase-container2 h2 {
+    
+        font-size: 2.5rem;
+    
+      }
+    
+      .phrase-container2 h3 {
+    
+        font-size: 1.5rem;
+    
+      }
+    
+      .space{
+    
+        padding-top: 7rem;
+    
+        }
+    
+      }
+
+  /* tablet */
+  @media (min-width: 451px) and (max-width: 960px) {
+  
+     /* --------------------------------TEXTOS DE VIDEO INICIO------------------------  */
+  
+    .text-video {
+      position: absolute;
+      z-index:1;
+      height: 500px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 70px;
+      justify-content: space-around;
+      /* border: 1px solid red; */
+    }
+  
+    .text-video h1 {
+      color: #f5ffda;
+      font-family: "Nunito", sans-serif;
+      font-weight: 800;
+      font-size: 3rem;
+    }
+  
+    .text-video p {
+      color: #f5ffda;
+      font-family: "Nunito", sans-serif;
+      font-weight: lighter;
+      font-size: 3rem;
+      text-align: center;
+    }
+  
+    .text-video h3 {
+      font-family: "Nunito", sans-serif;
+      font-weight: 600;
+      background-color: #e9e2c4;
+      font-size: 2.5rem;
+      border-radius: 25px;
+      width: 320px;
+      height: 40px;
+      padding: 4px;
+      opacity: 75%;
+      top: 25px;
+    }
+  
+    .text-video a {
+      text-decoration: none;
+      font-family: "Nunito", sans-serif;
+      font-weight: 600;
+      color: #000000;
+    }
+  
+    .text-video h3:hover {
+      background-color: #000000;
+      opacity: 60%;
+      color: #e9e2c4;
+      border: 2px solid #e9e2c4;
+      padding: 2px;
+    }
+  
+    /* --------------------------------FINAL TEXTOS VIDEO--------------------------- */
+  
+    .container-inspire {
+      grid-template-columns: repeat(2, 2fr);
+      grid-auto-rows: auto;
+      gap: 30px;
+      align-items: center;
+      justify-items: center;
+      max-width: 50%;
+    }
+  
+    .imagen-1 {
+      grid-column-start: span 2;
+    }
+  
+    .imagen-6 {
+      grid-column-start: span 2;
+    }
+  
+    .imagen-5 {
+      grid-column-start: span 2;
+    }
+  
+    .imagen-11 {
+      grid-column-start: span 2;
+    }
+  
+    .imagen-16 {
+      grid-column-start: span 2;
+    }
+  
+    .imagen-13 {
+      grid-column-start: span 2;
+    }
+  
+    .imagen-7 {
+      grid-column-start: span 2;
+    }
+  
+    .section-container-collection h2 {
+      font-family: "Nunito", sans-serif;
+      font-weight: 900;
+      font-size: 3.5rem;
+      color: #f5ffda;
+      height: 180px;
+      width: 100%;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      /* border: 1px solid rgb(38, 196, 72); */
+    }
+  
+    .phrase-container {
+      height: 40vh;
+    }
+  
+    .phrase-container h1 {
+      font-size: 4rem;
+    }
+  
+    .phrase-container h3 {
+      font-size: 2rem;
+    }
+  
+    /* SECTION WORK WITH US */
+    .tablet-mobile {
+      display: flex ;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  
+  }
+  
+  
+  .phrase-container2 h2 {
+  
+    font-size: 3rem;
+  
+  }
+  
+  .phrase-container2 h3 {
+  
+    font-size: 1.5rem;
+  
+  }
+
+
+.space{
+
+    padding-top: 7rem;
+
+    }
+
+  
+  /* --------------------SECTION DEALS TEXTS---------------- */
+  
+  .section-deals h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+  
+  }
+  
+  .section-deals p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+
+
+.container-map p {
+
+    flex-wrap: wrap;
+    left: 0;
+  
+  }
+  
+.contact-container ul {
+
+  width: auto;
+
+}
+
+.tamaño-iconos-redes {
+  object-fit: contain;
+  width: 37px;
+
+}
+
+}
+  
+  /*# sourceMappingURL=style.css.map */

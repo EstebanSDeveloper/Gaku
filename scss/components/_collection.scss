@@ -1,0 +1,111 @@
+$card-height: 50px;
+$card-bg: black;
+
+.font{
+
+    font-family: "Nunito", sans-serif;
+    
+}
+
+
+.h-100{
+
+    height: $card-height;
+    width: 60%;
+    background-color: $card-bg;
+    position: relative;
+    left: 23%;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+}
+
+.row{
+
+    background-color: $card-bg;
+    align-items: center;
+    justify-content: center;    
+
+}
+
+.card{
+
+    align-items: center;
+    
+
+}
+
+.card-title{
+
+    color:  #e9e2c4;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.card-text{
+
+    color:  #e9e2c4;
+    text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .footer-container {
+
+        width: auto;
+
+    }
+
+    .tamaño-iconos-redes{
+
+        width: 30px;
+
+
+    }
+
+    .contact-container ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        width: auto;
+        margin-top: 7px; 
+        padding-left: 0rem;
+    }
+    
+
+    .contact-container {
+        /* border: 1px solid rgb(18, 231, 178); */
+        width: 40%;
+        height: 100px;
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+
+    .contact-container p {
+
+        padding-top: 20px ;
+
+    }
+
+    .size-logo-footer{
+        width: 60px;
+
+    }
+
+.container-map p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #000000;
+    position: relative;
+    left: 0px;
+    text-align: center;
+    margin-top: 1.5%;
+    flex-wrap: wrap;
+}
+
+}
+
+
+
