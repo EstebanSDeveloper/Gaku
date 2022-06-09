@@ -552,6 +552,28 @@ nav {
   font-family: "Nunito", sans-serif;
 }
 
+.carousel-inner {
+  position: relative;
+  width: 77%;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-caption {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #e9e2c4;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #e9e2c4;
+}
+
 /* ------------------------------RESPONSIVE -------------------------- */
 @media only screen and (max-width: 450px) {
   /* --------------------------------TEXTOS DE VIDEO INICIO------------------------  */
@@ -637,6 +659,12 @@ nav {
 
   .phrase-container2 {
     height: 30vh;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
   }
 
   /*--------------------------------END CARRUSEL AJUSTE DE ESPACIOS-------------------------- */
@@ -950,6 +978,12 @@ nav {
   .tamaño-iconos-redes {
     object-fit: contain;
     width: 37px;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -89,6 +89,12 @@
   .phrase-container2 {
       height: 30vh;
   }
+
+  .carousel-inner {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+  }
   
     /*--------------------------------END CARRUSEL AJUSTE DE ESPACIOS-------------------------- */
   
@@ -457,6 +463,14 @@
   object-fit: contain;
   width: 37px;
 
+}
+
+//* CARRUSEL *//
+
+.carousel-inner {
+  position: relative;
+  width: 90%;
+  overflow: hidden;
 }
 
 }
